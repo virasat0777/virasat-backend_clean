@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_project_amenities",
+  "info": {
+    "displayName": "amenities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amenityTitle": {
+      "type": "text"
+    },
+    "amenities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::amenity.amenity"
+    },
+    "amenityBg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

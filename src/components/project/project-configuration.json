@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_project_project_configurations",
+  "info": {
+    "displayName": "projectConfiguration",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondaryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "areas": {
+      "displayName": "areas",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.areas"
+    }
+  }
+}

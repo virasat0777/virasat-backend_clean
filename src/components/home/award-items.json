@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_award_items",
+  "info": {
+    "displayName": "awardItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "awardName": {
+      "type": "string"
+    },
+    "awardDescription": {
+      "type": "text"
+    },
+    "awardImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_career_listing_sections",
+  "info": {
+    "displayName": "listingSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "available_jobs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job.job"
+    }
+  }
+}

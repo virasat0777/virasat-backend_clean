@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_career_badges",
+  "info": {
+    "displayName": "badges"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    }
+  }
+}

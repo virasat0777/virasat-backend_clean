@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner"
+    },
+    "overview": {
+      "displayName": "overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.overview"
+    },
+    "configuration": {
+      "displayName": "projectConfiguration",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-configuration"
+    },
+    "amenitySection": {
+      "displayName": "amenities",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.amenities"
+    },
+    "floorPlan": {
+      "displayName": "floorPlans",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.floor-plans"
+    },
+    "locationMap": {
+      "type": "text"
+    },
+    "locationAdvantage": {
+      "displayName": "locationAdvantage",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.location-advantage"
+    },
+    "locationTitle": {
+      "type": "text"
+    },
+    "gallery": {
+      "displayName": "gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.gallery"
+    },
+    "constructionUpdates": {
+      "displayName": "constructionUpdates",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.construction-updates"
+    },
+    "featuredSection": {
+      "displayName": "featuredSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.featured-section"
+    },
+    "projectStatus": {
+      "type": "string"
+    },
+    "projectType": {
+      "type": "string"
+    },
+    "bedrooms": {
+      "type": "string"
+    },
+    "developmentSize": {
+      "type": "string"
+    },
+    "totalUnits": {
+      "type": "string"
+    },
+    "projectTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "projectTitle"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "thumbnailImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

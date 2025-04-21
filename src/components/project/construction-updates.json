@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_project_construction_updates",
+  "info": {
+    "displayName": "constructionUpdates"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "constructionItems": {
+      "displayName": "constructionItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.construction-items"
+    }
+  }
+}

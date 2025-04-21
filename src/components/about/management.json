@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_managements",
+  "info": {
+    "displayName": "management",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "team": {
+      "displayName": "team",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.team"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

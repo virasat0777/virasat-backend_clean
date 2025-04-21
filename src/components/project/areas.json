@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_areas",
+  "info": {
+    "displayName": "areas"
+  },
+  "options": {},
+  "attributes": {
+    "bhk": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    }
+  }
+}

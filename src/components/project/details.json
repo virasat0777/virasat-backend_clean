@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_details",
+  "info": {
+    "displayName": "details"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  }
+}

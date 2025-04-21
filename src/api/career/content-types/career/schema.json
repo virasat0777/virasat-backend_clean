@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner"
+    },
+    "listingSection": {
+      "displayName": "listingSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.listing-section"
+    }
+  }
+}

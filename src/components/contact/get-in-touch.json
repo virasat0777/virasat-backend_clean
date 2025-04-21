@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_get_in_touches",
+  "info": {
+    "displayName": "getInTouch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_loan_partners",
+  "info": {
+    "displayName": "loanPartners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "partners": {
+      "displayName": "partners",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.partners"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

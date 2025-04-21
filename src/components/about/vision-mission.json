@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_about_vision_missions",
+  "info": {
+    "displayName": "visionMission",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "visionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visionTitle": {
+      "type": "string"
+    },
+    "visionDescription": {
+      "type": "text"
+    },
+    "missionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "missionTitle": {
+      "type": "string"
+    },
+    "missionDescription": {
+      "type": "text"
+    }
+  }
+}

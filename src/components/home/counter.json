@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_counters",
+  "info": {
+    "displayName": "counter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "counterItem": {
+      "displayName": "counterItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.counter-item"
+    }
+  }
+}

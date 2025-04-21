@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_about_overviews",
+  "info": {
+    "displayName": "overview",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "leftImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rightImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "overview": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_location_items",
+  "info": {
+    "displayName": "locationItems"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_location_advantages",
+  "info": {
+    "displayName": "locationAdvantage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.details"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

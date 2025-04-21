@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_page_schemas",
+  "info": {
+    "displayName": "Page Schema"
+  },
+  "options": {},
+  "attributes": {
+    "jsonSchema": {
+      "type": "json"
+    },
+    "schemaName": {
+      "type": "string"
+    }
+  }
+}

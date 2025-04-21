@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_office_locations",
+  "info": {
+    "displayName": "officeLocation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mapLink": {
+      "type": "text"
+    },
+    "locationItems": {
+      "displayName": "locationItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.location-items"
+    }
+  }
+}

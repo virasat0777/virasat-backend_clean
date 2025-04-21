@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_bank_collabs",
+  "info": {
+    "displayName": "bankCollabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "collabs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

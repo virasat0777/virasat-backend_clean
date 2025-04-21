@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_leads",
+  "info": {
+    "singularName": "career-lead",
+    "pluralName": "career-leads",
+    "displayName": "career-lead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "resume": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "applyingFor": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    }
+  }
+}

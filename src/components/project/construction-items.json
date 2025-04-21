@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_construction_items",
+  "info": {
+    "displayName": "constructionItems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

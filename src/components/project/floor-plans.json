@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_floor_plans",
+  "info": {
+    "displayName": "floorPlans"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

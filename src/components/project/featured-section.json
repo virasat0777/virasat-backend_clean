@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_project_featured_sections",
+  "info": {
+    "displayName": "featuredSection"
+  },
+  "options": {},
+  "attributes": {
+    "primaryImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "secondaryImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "string"
+    },
+    "smallDescription": {
+      "type": "text"
+    }
+  }
+}

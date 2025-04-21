@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner"
+    },
+    "overview": {
+      "displayName": "overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.overview"
+    },
+    "management": {
+      "displayName": "management",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.management"
+    },
+    "visionMission": {
+      "displayName": "visionMission",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.vision-mission"
+    },
+    "loanPartners": {
+      "displayName": "loanPartners",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.loan-partners"
+    },
+    "bankCollabs": {
+      "displayName": "bankCollabs",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.bank-collabs"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

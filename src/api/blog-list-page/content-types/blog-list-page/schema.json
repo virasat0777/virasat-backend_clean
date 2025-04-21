@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_list_pages",
+  "info": {
+    "singularName": "blog-list-page",
+    "pluralName": "blog-list-pages",
+    "displayName": "blogListPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner"
+    }
+  }
+}

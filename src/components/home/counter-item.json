@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_counter_items",
+  "info": {
+    "displayName": "counterItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    }
+  }
+}

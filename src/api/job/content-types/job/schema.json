@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "field": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "badges": {
+      "displayName": "badges",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.badges"
+    },
+    "jobDescription": {
+      "type": "richtext"
+    },
+    "smallDescription": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_project_overviews",
+  "info": {
+    "displayName": "overview"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "overviewContent": {
+      "type": "richtext"
+    },
+    "brochure": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

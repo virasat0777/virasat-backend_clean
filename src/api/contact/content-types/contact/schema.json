@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.banner"
+    },
+    "getInTouch": {
+      "displayName": "getInTouch",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.get-in-touch"
+    },
+    "officeLocation": {
+      "displayName": "officeLocation",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.office-location"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
