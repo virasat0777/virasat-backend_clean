@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'F5_backend',
+      name: 'virasat-backend',
       script: 'npm',
       args: 'run start',
     },
