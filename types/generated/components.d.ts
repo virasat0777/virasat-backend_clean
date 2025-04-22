@@ -110,121 +110,6 @@ export interface SharedMedia extends Schema.Component {
   };
 }
 
-export interface HomeTestimonialSection extends Schema.Component {
-  collectionName: 'components_home_testimonial_sections';
-  info: {
-    displayName: 'testimonialSection';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.String;
-    testimonialItems: Attribute.Component<'home.testimonial-items', true>;
-  };
-}
-
-export interface HomeTestimonialItems extends Schema.Component {
-  collectionName: 'components_home_testimonial_items';
-  info: {
-    displayName: 'testimonialItems';
-    description: '';
-  };
-  attributes: {
-    name: Attribute.String;
-    description: Attribute.Text;
-    image: Attribute.Media<'images' | 'files'>;
-  };
-}
-
-export interface HomeOverview extends Schema.Component {
-  collectionName: 'components_home_overviews';
-  info: {
-    displayName: 'overview';
-  };
-  attributes: {
-    description: Attribute.Text;
-    title: Attribute.String;
-    leftImage: Attribute.Media<'images'>;
-    centerImage: Attribute.Media<'images'>;
-    rightImage: Attribute.Media<'images'>;
-  };
-}
-
-export interface HomeHome extends Schema.Component {
-  collectionName: 'components_home_homes';
-  info: {
-    displayName: 'home';
-  };
-  attributes: {
-    banner: Attribute.Component<'home.banner'>;
-  };
-}
-
-export interface HomeCounter extends Schema.Component {
-  collectionName: 'components_home_counters';
-  info: {
-    displayName: 'counter';
-    description: '';
-  };
-  attributes: {
-    bgImage: Attribute.Media<'images'>;
-    counterItem: Attribute.Component<'home.counter-item', true>;
-  };
-}
-
-export interface HomeCounterItem extends Schema.Component {
-  collectionName: 'components_home_counter_items';
-  info: {
-    displayName: 'counterItem';
-    description: '';
-  };
-  attributes: {
-    name: Attribute.String;
-    prefix: Attribute.String;
-    suffix: Attribute.String;
-    count: Attribute.String;
-  };
-}
-
-export interface HomeBanner extends Schema.Component {
-  collectionName: 'components_home_banners';
-  info: {
-    displayName: 'banner';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.String;
-    animationText: Attribute.Text;
-    desktopBanner: Attribute.Media<'images'>;
-    mobileBanner: Attribute.Media<'images'>;
-  };
-}
-
-export interface HomeAwards extends Schema.Component {
-  collectionName: 'components_home_awards';
-  info: {
-    displayName: 'awards';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.Text;
-    awardItems: Attribute.Component<'home.award-items', true>;
-  };
-}
-
-export interface HomeAwardItems extends Schema.Component {
-  collectionName: 'components_home_award_items';
-  info: {
-    displayName: 'awardItems';
-    description: '';
-  };
-  attributes: {
-    year: Attribute.String;
-    awardName: Attribute.String;
-    awardDescription: Attribute.Text;
-    awardImage: Attribute.Media<'images'>;
-  };
-}
-
 export interface ProjectTeam extends Schema.Component {
   collectionName: 'components_project_teams';
   info: {
@@ -397,6 +282,121 @@ export interface ProjectAmenities extends Schema.Component {
   };
 }
 
+export interface HomeTestimonialSection extends Schema.Component {
+  collectionName: 'components_home_testimonial_sections';
+  info: {
+    displayName: 'testimonialSection';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String;
+    testimonialItems: Attribute.Component<'home.testimonial-items', true>;
+  };
+}
+
+export interface HomeTestimonialItems extends Schema.Component {
+  collectionName: 'components_home_testimonial_items';
+  info: {
+    displayName: 'testimonialItems';
+    description: '';
+  };
+  attributes: {
+    name: Attribute.String;
+    description: Attribute.Text;
+    image: Attribute.Media<'images' | 'files'>;
+  };
+}
+
+export interface HomeOverview extends Schema.Component {
+  collectionName: 'components_home_overviews';
+  info: {
+    displayName: 'overview';
+  };
+  attributes: {
+    description: Attribute.Text;
+    title: Attribute.String;
+    leftImage: Attribute.Media<'images'>;
+    centerImage: Attribute.Media<'images'>;
+    rightImage: Attribute.Media<'images'>;
+  };
+}
+
+export interface HomeHome extends Schema.Component {
+  collectionName: 'components_home_homes';
+  info: {
+    displayName: 'home';
+  };
+  attributes: {
+    banner: Attribute.Component<'home.banner'>;
+  };
+}
+
+export interface HomeCounter extends Schema.Component {
+  collectionName: 'components_home_counters';
+  info: {
+    displayName: 'counter';
+    description: '';
+  };
+  attributes: {
+    bgImage: Attribute.Media<'images'>;
+    counterItem: Attribute.Component<'home.counter-item', true>;
+  };
+}
+
+export interface HomeCounterItem extends Schema.Component {
+  collectionName: 'components_home_counter_items';
+  info: {
+    displayName: 'counterItem';
+    description: '';
+  };
+  attributes: {
+    name: Attribute.String;
+    prefix: Attribute.String;
+    suffix: Attribute.String;
+    count: Attribute.String;
+  };
+}
+
+export interface HomeBanner extends Schema.Component {
+  collectionName: 'components_home_banners';
+  info: {
+    displayName: 'banner';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String;
+    animationText: Attribute.Text;
+    desktopBanner: Attribute.Media<'images'>;
+    mobileBanner: Attribute.Media<'images'>;
+  };
+}
+
+export interface HomeAwards extends Schema.Component {
+  collectionName: 'components_home_awards';
+  info: {
+    displayName: 'awards';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.Text;
+    awardItems: Attribute.Component<'home.award-items', true>;
+  };
+}
+
+export interface HomeAwardItems extends Schema.Component {
+  collectionName: 'components_home_award_items';
+  info: {
+    displayName: 'awardItems';
+    description: '';
+  };
+  attributes: {
+    year: Attribute.String;
+    awardName: Attribute.String;
+    awardDescription: Attribute.Text;
+    awardImage: Attribute.Media<'images'>;
+  };
+}
+
 export interface ContactOfficeLocation extends Schema.Component {
   collectionName: 'components_contact_office_locations';
   info: {
@@ -431,6 +431,32 @@ export interface ContactGetInTouch extends Schema.Component {
     description: Attribute.Text;
     contactNo: Attribute.String;
     email: Attribute.String;
+  };
+}
+
+export interface CareerListingSection extends Schema.Component {
+  collectionName: 'components_career_listing_sections';
+  info: {
+    displayName: 'listingSection';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.Text;
+    available_jobs: Attribute.Relation<
+      'career.listing-section',
+      'oneToMany',
+      'api::job.job'
+    >;
+  };
+}
+
+export interface CareerBadges extends Schema.Component {
+  collectionName: 'components_career_badges';
+  info: {
+    displayName: 'badges';
+  };
+  attributes: {
+    badge: Attribute.String;
   };
 }
 
@@ -514,32 +540,6 @@ export interface AboutBankCollabs extends Schema.Component {
   };
 }
 
-export interface CareerListingSection extends Schema.Component {
-  collectionName: 'components_career_listing_sections';
-  info: {
-    displayName: 'listingSection';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.Text;
-    available_jobs: Attribute.Relation<
-      'career.listing-section',
-      'oneToMany',
-      'api::job.job'
-    >;
-  };
-}
-
-export interface CareerBadges extends Schema.Component {
-  collectionName: 'components_career_badges';
-  info: {
-    displayName: 'badges';
-  };
-  attributes: {
-    badge: Attribute.String;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -550,15 +550,6 @@ declare module '@strapi/types' {
       'shared.page-schema': SharedPageSchema;
       'shared.meta-social': SharedMetaSocial;
       'shared.media': SharedMedia;
-      'home.testimonial-section': HomeTestimonialSection;
-      'home.testimonial-items': HomeTestimonialItems;
-      'home.overview': HomeOverview;
-      'home.home': HomeHome;
-      'home.counter': HomeCounter;
-      'home.counter-item': HomeCounterItem;
-      'home.banner': HomeBanner;
-      'home.awards': HomeAwards;
-      'home.award-items': HomeAwardItems;
       'project.team': ProjectTeam;
       'project.project-configuration': ProjectProjectConfiguration;
       'project.overview': ProjectOverview;
@@ -573,17 +564,26 @@ declare module '@strapi/types' {
       'project.areas': ProjectAreas;
       'project.amenity-item': ProjectAmenityItem;
       'project.amenities': ProjectAmenities;
+      'home.testimonial-section': HomeTestimonialSection;
+      'home.testimonial-items': HomeTestimonialItems;
+      'home.overview': HomeOverview;
+      'home.home': HomeHome;
+      'home.counter': HomeCounter;
+      'home.counter-item': HomeCounterItem;
+      'home.banner': HomeBanner;
+      'home.awards': HomeAwards;
+      'home.award-items': HomeAwardItems;
       'contact.office-location': ContactOfficeLocation;
       'contact.location-items': ContactLocationItems;
       'contact.get-in-touch': ContactGetInTouch;
+      'career.listing-section': CareerListingSection;
+      'career.badges': CareerBadges;
       'about.vision-mission': AboutVisionMission;
       'about.partners': AboutPartners;
       'about.overview': AboutOverview;
       'about.management': AboutManagement;
       'about.loan-partners': AboutLoanPartners;
       'about.bank-collabs': AboutBankCollabs;
-      'career.listing-section': CareerListingSection;
-      'career.badges': CareerBadges;
     }
   }
 }
