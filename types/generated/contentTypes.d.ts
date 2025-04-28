@@ -1189,6 +1189,36 @@ export interface ApiProjectProject extends Schema.CollectionType {
   };
 }
 
+export interface ApiProjectListingProjectListing extends Schema.SingleType {
+  collectionName: 'project_listings';
+  info: {
+    singularName: 'project-listing';
+    pluralName: 'project-listings';
+    displayName: 'ProjectListing';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    banner: Attribute.Component<'project.banner'>;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::project-listing.project-listing',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::project-listing.project-listing',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiWebsiteLeadWebsiteLead extends Schema.CollectionType {
   collectionName: 'website_leads';
   info: {
@@ -1254,6 +1284,7 @@ declare module '@strapi/types' {
       'api::new.new': ApiNewNew;
       'api::news-list-page.news-list-page': ApiNewsListPageNewsListPage;
       'api::project.project': ApiProjectProject;
+      'api::project-listing.project-listing': ApiProjectListingProjectListing;
       'api::website-lead.website-lead': ApiWebsiteLeadWebsiteLead;
     }
   }
