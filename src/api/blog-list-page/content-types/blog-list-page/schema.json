@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-list-page",
     "pluralName": "blog-list-pages",
-    "displayName": "blogListPage"
+    "displayName": "blogListPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "project.banner"
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-listing",
     "pluralName": "project-listings",
-    "displayName": "ProjectListing"
+    "displayName": "ProjectListing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "project.banner"
     }
   }

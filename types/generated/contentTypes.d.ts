@@ -800,7 +800,7 @@ export interface ApiAboutUsAboutUs extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     overview: Attribute.Component<'about.overview'>;
     management: Attribute.Component<'about.management'>;
     visionMission: Attribute.Component<'about.vision-mission'>;
@@ -862,12 +862,13 @@ export interface ApiBlogListPageBlogListPage extends Schema.SingleType {
     singularName: 'blog-list-page';
     pluralName: 'blog-list-pages';
     displayName: 'blogListPage';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -934,7 +935,7 @@ export interface ApiCareerCareer extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     listingSection: Attribute.Component<'career.listing-section'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -1001,7 +1002,7 @@ export interface ApiContactContact extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     getInTouch: Attribute.Component<'contact.get-in-touch'>;
     officeLocation: Attribute.Component<'contact.office-location'>;
     title: Attribute.String;
@@ -1114,12 +1115,13 @@ export interface ApiNewsListPageNewsListPage extends Schema.SingleType {
     singularName: 'news-list-page';
     pluralName: 'news-list-pages';
     displayName: 'NewsListPage';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1195,12 +1197,13 @@ export interface ApiProjectListingProjectListing extends Schema.SingleType {
     singularName: 'project-listing';
     pluralName: 'project-listings';
     displayName: 'ProjectListing';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

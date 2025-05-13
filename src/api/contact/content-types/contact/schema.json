@@ -14,7 +14,7 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "project.banner"
     },
     "getInTouch": {

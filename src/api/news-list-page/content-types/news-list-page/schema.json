@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-list-page",
     "pluralName": "news-list-pages",
-    "displayName": "NewsListPage"
+    "displayName": "NewsListPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "project.banner"
     }
   }
