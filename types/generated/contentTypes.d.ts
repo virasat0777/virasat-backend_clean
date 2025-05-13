@@ -1152,7 +1152,7 @@ export interface ApiProjectProject extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'project.banner'>;
+    banner: Attribute.Component<'project.banner', true>;
     overview: Attribute.Component<'project.overview'>;
     configuration: Attribute.Component<'project.project-configuration', true>;
     amenitySection: Attribute.Component<'project.amenities'>;
