@@ -1036,12 +1036,13 @@ export interface ApiHomeHome extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    banner: Attribute.Component<'home.banner'>;
+    bannerTexts: Attribute.Component<'home.banner'>;
     overview: Attribute.Component<'home.overview'>;
     testimonial: Attribute.Component<'home.testimonial-section'>;
     awards: Attribute.Component<'home.awards'>;
     counter: Attribute.Component<'home.counter'>;
     seo: Attribute.Component<'shared.seo'>;
+    banners: Attribute.Component<'project.banner', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

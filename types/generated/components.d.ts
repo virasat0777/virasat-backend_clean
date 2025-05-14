@@ -366,8 +366,6 @@ export interface HomeBanner extends Schema.Component {
   attributes: {
     title: Attribute.String;
     animationText: Attribute.Text;
-    desktopBanner: Attribute.Media<'images'>;
-    mobileBanner: Attribute.Media<'images'>;
   };
 }
 

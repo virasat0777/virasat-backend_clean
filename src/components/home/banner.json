@@ -11,22 +11,6 @@
     },
     "animationText": {
       "type": "text"
-    },
-    "desktopBanner": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "mobileBanner": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
     }
   }
 }
