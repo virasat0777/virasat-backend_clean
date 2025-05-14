@@ -22,6 +22,11 @@
       "type": "component",
       "repeatable": false,
       "component": "career.listing-section"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

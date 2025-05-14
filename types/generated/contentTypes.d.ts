@@ -869,6 +869,7 @@ export interface ApiBlogListPageBlogListPage extends Schema.SingleType {
   };
   attributes: {
     banner: Attribute.Component<'project.banner', true>;
+    Seo: Attribute.Component<'shared.seo'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -937,6 +938,7 @@ export interface ApiCareerCareer extends Schema.SingleType {
   attributes: {
     banner: Attribute.Component<'project.banner', true>;
     listingSection: Attribute.Component<'career.listing-section'>;
+    Seo: Attribute.Component<'shared.seo'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1006,6 +1008,7 @@ export interface ApiContactContact extends Schema.SingleType {
     getInTouch: Attribute.Component<'contact.get-in-touch'>;
     officeLocation: Attribute.Component<'contact.office-location'>;
     title: Attribute.String;
+    Seo: Attribute.Component<'shared.seo'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1123,6 +1126,7 @@ export interface ApiNewsListPageNewsListPage extends Schema.SingleType {
   };
   attributes: {
     banner: Attribute.Component<'project.banner', true>;
+    Seo: Attribute.Component<'shared.seo'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1205,6 +1209,7 @@ export interface ApiProjectListingProjectListing extends Schema.SingleType {
   };
   attributes: {
     banner: Attribute.Component<'project.banner', true>;
+    Seo: Attribute.Component<'shared.seo'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
