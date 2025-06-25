@@ -395,6 +395,32 @@ export interface HomeAwardItems extends Schema.Component {
   };
 }
 
+export interface CareerListingSection extends Schema.Component {
+  collectionName: 'components_career_listing_sections';
+  info: {
+    displayName: 'listingSection';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.Text;
+    available_jobs: Attribute.Relation<
+      'career.listing-section',
+      'oneToMany',
+      'api::job.job'
+    >;
+  };
+}
+
+export interface CareerBadges extends Schema.Component {
+  collectionName: 'components_career_badges';
+  info: {
+    displayName: 'badges';
+  };
+  attributes: {
+    badge: Attribute.String;
+  };
+}
+
 export interface ContactOfficeLocation extends Schema.Component {
   collectionName: 'components_contact_office_locations';
   info: {
@@ -429,32 +455,6 @@ export interface ContactGetInTouch extends Schema.Component {
     description: Attribute.Text;
     contactNo: Attribute.String;
     email: Attribute.String;
-  };
-}
-
-export interface CareerListingSection extends Schema.Component {
-  collectionName: 'components_career_listing_sections';
-  info: {
-    displayName: 'listingSection';
-    description: '';
-  };
-  attributes: {
-    title: Attribute.Text;
-    available_jobs: Attribute.Relation<
-      'career.listing-section',
-      'oneToMany',
-      'api::job.job'
-    >;
-  };
-}
-
-export interface CareerBadges extends Schema.Component {
-  collectionName: 'components_career_badges';
-  info: {
-    displayName: 'badges';
-  };
-  attributes: {
-    badge: Attribute.String;
   };
 }
 
@@ -571,11 +571,11 @@ declare module '@strapi/types' {
       'home.banner': HomeBanner;
       'home.awards': HomeAwards;
       'home.award-items': HomeAwardItems;
+      'career.listing-section': CareerListingSection;
+      'career.badges': CareerBadges;
       'contact.office-location': ContactOfficeLocation;
       'contact.location-items': ContactLocationItems;
       'contact.get-in-touch': ContactGetInTouch;
-      'career.listing-section': CareerListingSection;
-      'career.badges': CareerBadges;
       'about.vision-mission': AboutVisionMission;
       'about.partners': AboutPartners;
       'about.overview': AboutOverview;
