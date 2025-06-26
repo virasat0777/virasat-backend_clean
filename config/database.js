@@ -82,6 +82,9 @@ module.exports = ({ env }) => {
     },
   };
 
+  console.log('✅ DATABASE CLIENT:', client);
+console.log('✅ CONNECTION CONFIG:', connections[client]);
+
   return {
     connection: {
       client,
