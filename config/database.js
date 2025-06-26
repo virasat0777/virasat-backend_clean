@@ -95,7 +95,8 @@ const mysql = require('mysql2/promise');
       password: connections[client].connection.password,
       database: connections[client].connection.database
     });
-    console.log("✅ TEST CONNECTION SUCCESSFUL");
+    console.log("✅ DATABASE CLIENT:", client);
+console.log("✅ CONNECTION CONFIG:", connections[client]);
     await testConnection.end();
   } catch (err) {
     console.error("❌ TEST CONNECTION FAILED", err);
