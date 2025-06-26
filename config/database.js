@@ -86,22 +86,22 @@ module.exports = ({ env }) => {
 console.log('✅ CONNECTION CONFIG:', connections[client]);
 const mysql = require('mysql2/promise');
 
-(async () => {
-  try {
-    const testConnection = await mysql.createConnection({
-      host: connections[client].connection.host,
-      port: connections[client].connection.port,
-      user: connections[client].connection.user,
-      password: connections[client].connection.password,
-      database: connections[client].connection.database
-    });
-    console.log("✅ DATABASE CLIENT:", client);
-console.log("✅ CONNECTION CONFIG:", connections[client]);
-    await testConnection.end();
-  } catch (err) {
-    console.error("❌ TEST CONNECTION FAILED", err);
-  }
-})();
+// (async () => {
+//   try {
+//     const testConnection = await mysql.createConnection({
+//       host: connections[client].connection.host,
+//       port: connections[client].connection.port,
+//       user: connections[client].connection.user,
+//       password: connections[client].connection.password,
+//       database: connections[client].connection.database
+//     });
+//     console.log("✅ DATABASE CLIENT:", client);
+// console.log("✅ CONNECTION CONFIG:", connections[client]);
+//     await testConnection.end();
+//   } catch (err) {
+//     console.error("❌ TEST CONNECTION FAILED", err);
+//   }
+// })();
 
 
   return {
